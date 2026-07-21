@@ -26,11 +26,12 @@ Trabajo académico y defensivo. La ejecución se realiza en un entorno local y a
 - `centralizada_topologia.py` / `P2P_topologia.py` — generan los diagramas de las topologías.
 
 ### `captures/{centralized,p2p}/` — Capturas de tráfico
-Archivos `.pcap` de cada ejecución.
-pcaps de centralized y p2p comprimidos con 7z para poder subirlos a Github debido a su tamaño (captures/{centralized.7z,p2p.7z}).
+- Archivos `.pcap` de cada ejecución.
+- pcaps de centralized y p2p comprimidos con 7z para poder subirlos a Github debido a su tamaño (captures/{centralized.7z,p2p.7z}).
 
 ### `logs/{centralized,p2p}/` — Registros
-Salidas de ping, iperf3 y de los procesos de cada ejecución.
+- Salidas de ping, iperf3 y de los procesos de cada ejecución.
+- logs de centralized y p2p comprimidos con 7z para poder subirlos a Github debido al gran número de archivos (logs/{centralized.7z,p2p.7z})
 
 ### `results/` — Resultados
 - `csv/` — `metrics_summary.csv` (métricas consolidadas de las 24 ejecuciones) y las tablas de resultados.
